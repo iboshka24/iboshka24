@@ -64,7 +64,7 @@ not just a score.
 | **[ShobikaOs](https://github.com/iboshka24/ShobikaOs)** | Arch-based Linux distribution: native Rust/GTK4 installer, automatic driver detection, PipeWire, gaming tuning, CI-built ISO. |
 | **[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** | Draws exam figures — lines, parabolas, scatter plots, tables — from data straight to print-ready SVG. Zero dependencies, and no input can produce `NaN`. |
 | **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in ~200 lines, with tests. |
-| **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **35 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP — 46 sections in four interface languages, scheduled review of mistakes, timed exam mode. |
+| **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **35 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP — 55 sections in four interface languages, **11 900 of them free**, scheduled review of mistakes, timed exam mode. |
 | **[Staff-utility](https://github.com/iboshka24/Staff-utility)** | Minecraft server utilities for Paper/Folia: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
 | **[simple-galaxy-simulation](https://github.com/iboshka24/simple-galaxy-simulation-by-ai)** | A galaxy rendered by a few hundred lines of physics, for the fun of watching it hold together. |
 | **klyro**, **opencode-studio**, **3d** | Smaller experiments, tools and prototypes. |
