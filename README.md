@@ -82,6 +82,24 @@ fun; and a Hackintosh that took longer to stabilise than it should have and taug
 me more about drivers than any course.
 
 ---
+## Что я делаю
+
+**Vendra Teach** — платформа подготовки к экзаменам для узбекских школьников:
+29 079 вопросов (цифровой SAT, IELTS, Milliy sertifikat, AP), четыре языка
+интерфейса, интервальное повторение ошибок и режим теста с таймером.
+Репозиторий приватный — это продукт, а не демо.
+
+**ShobikaOs** — Arch-based дистрибутив с нативным установщиком на Rust и GTK4,
+автоопределением драйверов и Catppuccin Mocha. Собирается в ISO через CI.
+
+**Два открытых пакета** — из этого же проекта, без единой зависимости:
+- [exam-figure-svg](https://github.com/iboshka24/exam-figure-svg) — рисует
+  экзаменационные графики (прямые, параболы, диаграммы рассеяния) из данных
+  в готовый к печати SVG
+- [spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue) —
+  планировщик повторений: когда показать вопрос снова, в 200 строках с тестами
+
+---
 
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=iboshka24&show_icons=true&hide_border=true&theme=default&title_color=24211c&icon_color=6b6459" alt="GitHub stats" />
