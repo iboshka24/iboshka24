@@ -1,49 +1,32 @@
 # iboshka24
 
-**I build free exam prep for students in Uzbekistan — and the tools underneath it.**
+**Developer. I build things for Linux, I tinker with Hackintosh, and I write the tools I miss.**
 
-[![Uzbekistan](https://img.shields.io/badge/Tashkent-Uzbekistan-1f6feb?style=flat-square)](#)
+[![Uzbekistan](https://img.shields.io/badge/Uzbekistan-1f6feb?style=flat-square)](#)
 [![Profile views](https://komarev.com/ghpvc/?username=iboshka24&style=flat-square&color=24211c)](https://github.com/iboshka24)
 [![Followers](https://img.shields.io/github/followers/iboshka24?style=flat-square&color=6b6459)](https://github.com/iboshka24?tab=followers)
 
-<!-- TODO(iboshka24): подставит настоящее имя, город и ссылку на портфолио, если захочешь -->
+<!-- TODO(iboshka24): подставить настоящее имя и ссылку на портфолио, если захочешь -->
 
-Подготовка к экзаменам не должна стоить денег. Студент из Ташкента, у которого нет
-преподавателя и нет 200$ в месяц на курсы, должен получить те же вопросы, тот же
-разбор ошибок и тот же порядок подготовки, что и ученик частной школы.
+## What I'm about
 
----
+I like the layer under the layer — kernels, drivers, installers, packaging — and I
+build the tools I miss instead of waiting for someone to make them. Most of what's
+here started as *"this should exist, so I'll write it"*.
 
-## What I'm shipping
+**Linux, seriously.** My daily machine runs an Arch-based system, and I keep
+[ShobikaOs](https://github.com/iboshka24/ShobikaOs) — an Arch-based distribution with
+a native Rust/GTK4 installer, automatic hardware driver detection, PipeWire audio,
+gaming tweaks and Catppuccin Mocha — building into an ISO on every push. Installing
+Arch from nothing, by hand, is still my favourite way to spend an evening.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Hackintosh, patiently.** Booting macOS on hardware Apple never intended means
+reading other people's kexts and ACPI tables until the thing finally comes up. It
+broke on me more times than I can count, and it taught me more about drivers than any
+course I've taken.
 
-### Vendra Teach <sub>(private)</sub>
-
-Exam prep platform: **SAT Math & Reading**, **IELTS**, **Milliy sertifikat** (matematika / fizika / kimyo) and **AP**.
-
-- **22 000+ questions** in one bank, with figures generated from data rather than stored as images
-- **Four languages** — O'zbekcha, Русский, English, Қазақша
-- **Exam mode**: a real clock, an answer sheet, nothing revealed until you hand it in
-- **Spaced repetition**: wrong answers come back in ten minutes, then a day, then a week
-- **Free tier**, no card, no trial that expires
-
-</td>
-<td width="50%" valign="top">
-
-### Open source
-
-**[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** — draw exam-style graphs (lines, parabolas, scatter plots) from data to print-ready SVG. Zero dependencies. Axes cross at the origin, and no input can produce `NaN`.
-
-**[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** — a tiny scheduler that answers *"when should this question come back?"* No storage, no clock of its own, thirteen tests on the built-in Node runner.
-
-</td>
-</tr>
-</table>
-
-Both libraries were extracted from the platform above — they are what I already run in production, cleaned up enough for someone else to use.
+**Code that has to be right.** Mostly TypeScript and Python, but what I actually enjoy
+is the part where the data structure decides whether the feature is even possible.
 
 ---
 
@@ -51,10 +34,15 @@ Both libraries were extracted from the platform above — they are what I alread
 
 | | |
 | --- | --- |
-| **ShobikaOS** | An Arch-based Linux distribution: native Rust/GTK4 installer, automatic hardware driver detection, PipeWire, gaming tuning, Catppuccin Mocha. |
-| **Vendra** / **Vendra SaaS** | AI financial operator for small businesses in Uzbekistan. |
-| **Staff-utility** | Paper/Folia plugin for Minecraft servers: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
+| **[ShobikaOs](https://github.com/iboshka24/ShobikaOs)** | Arch-based Linux distribution: native Rust/GTK4 installer, automatic driver detection, PipeWire, gaming tuning, CI-built ISO. |
+| **[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** | Draws exam figures — lines, parabolas, scatter plots, tables — from data straight to print-ready SVG. Zero dependencies, and no input can produce `NaN`. |
+| **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in ~200 lines, with tests. |
+| **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **29 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP, four interface languages, scheduled review of mistakes, timed exam mode. |
+| **[Staff-utility](https://github.com/iboshka24/Staff-utility)** | Minecraft server utilities for Paper/Folia: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
 | **klyro**, **opencode-studio**, **3d** | Smaller experiments, tools and prototypes. |
+
+Both open packages were extracted from the platform above — they are what I already
+run in production, cleaned up enough for someone else to use.
 
 ---
 
@@ -67,6 +55,8 @@ Both libraries were extracted from the platform above — they are what I alread
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
@@ -74,30 +64,9 @@ Both libraries were extracted from the platform above — they are what I alread
 
 ![CachyOS](https://img.shields.io/badge/CachyOS-daily_driver-1793D1?style=flat-square&logo=archlinux&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-from_scratch-1793D1?style=flat-square&logo=archlinux&logoColor=white)
-![macOS](https://img.shields.io/badge/Hackintosh-OpenCore-000000?style=flat-square&logo=apple&logoColor=white)
+![Hackintosh](https://img.shields.io/badge/Hackintosh-OpenCore-000000?style=flat-square&logo=apple&logoColor=white)
 ![KDE](https://img.shields.io/badge/KDE_Plasma-Wayland-1D99F3?style=flat-square&logo=kde&logoColor=white)
-
-Linux is not a tool I use at work — it's the thing I enjoy. Arch, from nothing, for
-fun; and a Hackintosh that took longer to stabilise than it should have and taught
-me more about drivers than any course.
-
----
-## Что я делаю
-
-**Vendra Teach** — платформа подготовки к экзаменам для узбекских школьников:
-29 079 вопросов (цифровой SAT, IELTS, Milliy sertifikat, AP), четыре языка
-интерфейса, интервальное повторение ошибок и режим теста с таймером.
-Репозиторий приватный — это продукт, а не демо.
-
-**ShobikaOs** — Arch-based дистрибутив с нативным установщиком на Rust и GTK4,
-автоопределением драйверов и Catppuccin Mocha. Собирается в ISO через CI.
-
-**Два открытых пакета** — из этого же проекта, без единой зависимости:
-- [exam-figure-svg](https://github.com/iboshka24/exam-figure-svg) — рисует
-  экзаменационные графики (прямые, параболы, диаграммы рассеяния) из данных
-  в готовый к печати SVG
-- [spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue) —
-  планировщик повторений: когда показать вопрос снова, в 200 строках с тестами
+![Neovim](https://img.shields.io/badge/Neovim-terminal-57A143?style=flat-square&logo=neovim&logoColor=white)
 
 ---
 
@@ -106,4 +75,4 @@ me more about drivers than any course.
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&layout=compact&hide_border=true&title_color=24211c" alt="Top languages" />
 </p>
 
-<p align="center"><sub>Открыт к разговору про EdTech для Узбекистана — и к pull request'ам в оба пакета выше.</sub></p>
+<p align="center"><sub>Open to talking about Linux, Hackintosh builds and EdTech for Uzbekistan — and to pull requests in either package above.</sub></p>
