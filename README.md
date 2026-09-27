@@ -22,7 +22,7 @@
 const iboshka24 = {
   alias: "iboshka24",
   role: "developer",
-  city: "Uzbekistan",              // подставим точно, как только скажешь
+  city: "Tashkent",              
   os: ["CachyOS", "Arch (by hand)", "Hackintosh · OpenCore", "Windows (for games)"],
   stack: ["TypeScript", "Next.js", "Python", "Rust", "Kotlin", "PostgreSQL"],
   worksWith: ["Hermes Agent", "DeepSeek", "Neovim", "Git"],
