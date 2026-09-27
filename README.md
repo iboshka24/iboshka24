@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="iboshka24 — developer, Linux, Hackintosh, free exam prep" width="100%" />
+  <img src="assets/banner.svg" alt="iboshka24 — AI developer, agents, free exam prep" width="100%" />
 </div>
 
 <div align="center">
 
 [![Visits](https://komarev.com/ghpvc/?username=iboshka24&label=VISITS&color=c7f94e&style=flat-square)](https://github.com/iboshka24)
 [![Followers](https://img.shields.io/github/followers/iboshka24?label=FOLLOWERS&style=flat-square&color=5ce1c6)](https://github.com/iboshka24?tab=followers)
-![Focus](https://img.shields.io/badge/FOCUS-LINUX_%2F_HACKINTOSH-c7f94e?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-AI_%2F_AGENTS-c7f94e?style=flat-square)
 ![Status](https://img.shields.io/badge/STATUS-BUILDING_VENDRA_TEACH-5ce1c6?style=flat-square)
-![Open to](https://img.shields.io/badge/OPEN_TO-TALKING_ABOUT_LINUX-1f6feb?style=flat-square)
+![Open to](https://img.shields.io/badge/OPEN_TO-AI_%2C_AGENTS_%26_EDTECH-1f6feb?style=flat-square)
 
 <a href="https://github.com/iboshka24">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=820&lines=I+build+the+tools+I+miss;Arch+by+hand%2C+Hackintosh+with+patience;35+405+exam+questions+%E2%80%94+11+900+free%2C+for+students+anywhere;Built+with+Hermes+Agent+and+DeepSeek;SQL+trainer%2C+nutrition+and+workout+engines+%E2%80%94+all+open" alt="what I do" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=820&lines=I+build+the+tools+I+miss;Models+as+colleagues%2C+not+autocomplete;35+405+exam+questions+%E2%80%94+11+900+free%2C+for+students+anywhere;Built+with+Hermes+Agent+and+DeepSeek;SQL+trainer%2C+nutrition+and+workout+engines+%E2%80%94+all+open" alt="what I do" />
 </a>
 
 </div>
@@ -25,7 +25,7 @@
 ```ts
 const iboshka24 = {
   alias: "iboshka24",
-  role: "developer",
+  role: "AI developer",
   city: "Tashkent",              
   os: ["CachyOS", "Arch (by hand)", "Hackintosh · OpenCore", "Windows (for games)"],
   stack: ["TypeScript", "Next.js", "Python", "Rust", "Kotlin", "PostgreSQL"],
@@ -33,27 +33,32 @@ const iboshka24 = {
   philosophy: "a system is a list of decisions someone made — you can read them",
   building: "Vendra Teach — 35 405 exam questions across 55 sections, 11 900 free",
   buildingFor: "students anywhere — the tools are free, the borders are not the point",
-  favouriteThing: "installing Arch from scratch is my idea of a good evening",
+  favouriteThing: "an agent proving a claim I doubted",
 } as const;
 ```
 
 ## What I'm about
 
-I like the layer under the layer — kernels, drivers, installers, packaging — and I
-build the tools I miss instead of waiting for someone to make them. Most of what's
-here started as *"this should exist, so I'll write it"*.
+I build the tools I miss instead of waiting for someone to make them. Most of what's
+here started as *"this should exist, so I'll write it"* — and lately that means
+products with a model inside them, not a demo with a model next to them.
 
-**Linux, seriously.** My daily machine runs an Arch-based system, and I keep
-[ShobikaOs](https://github.com/iboshka24/ShobikaOs) — an Arch-based distribution with
-a native Rust/GTK4 installer, automatic hardware driver detection, PipeWire audio,
-gaming tweaks and Catppuccin Mocha — building into an ISO on every push. Installing
-Arch from nothing, by hand, is still my favourite way to spend an evening.
+**Models as colleagues, not autocomplete.** [Hermes Agent](https://hermes-agent.nousresearch.com)
+(an autonomous agent by Nous Research) running **DeepSeek** models keeps my servers up,
+rebuilds the question bank, runs the tests and brings back evidence. I decide what gets
+built; the agent does the long mechanical parts — and it is expected to prove its work
+rather than announce success.
 
-**Hackintosh, patiently.** Booting macOS on hardware Apple never intended means
-reading other people's kexts and ACPI tables until the thing finally comes up. It
-broke on me more times than I can count, and it taught me more about drivers than any
-course I've taken. What it really taught me is that a system is not magic — it is a
-list of decisions someone made, and you can read them.
+**Everything I build has AI inside it, not AI written on it.** Error explanations that
+name the actual mistake instead of saying "wrong". A workout plan that respects a knee.
+A SQL trainer that compares your result to the reference instead of comparing text.
+The model is a part of the product, not a sticker on it.
+
+**Curiosity about the layer under the layer** is the other half: sometimes that means
+Linux and Hackintosh, sometimes installers, sometimes just wanting to know why a driver
+refused to load. One of those evenings became
+[ShobikaOs](https://github.com/iboshka24/ShobikaOs) — an Arch-based distribution with a
+Rust/GTK4 installer, automatic driver detection and an ISO built on every push.
 
 **Code that has to be right.** Mostly TypeScript and Python, but what I actually enjoy
 is the part where the data structure decides whether the feature is even possible.
@@ -135,21 +140,16 @@ involved, PostgreSQL for the data that has to survive.
 ## Machines
 
 ![CachyOS](https://img.shields.io/badge/CachyOS-daily_driver-1793D1?style=flat-square&logo=archlinux&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-from_scratch-1793D1?style=flat-square&logo=archlinux&logoColor=white)
-![Hackintosh](https://img.shields.io/badge/Hackintosh-OpenCore-000000?style=flat-square&logo=apple&logoColor=white)
-![KDE](https://img.shields.io/badge/KDE_Plasma-Wayland-1D99F3?style=flat-square&logo=kde&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-for_games-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-terminal-57A143?style=flat-square&logo=neovim&logoColor=white)
 
-CachyOS with KDE on Wayland is what I actually work on. Arch I install by hand when I
-want to remember how the pieces fit. Hackintosh I keep around for the drivers and
-because macOS is a good teacher about hardware. Windows only when a game insists.
+CachyOS with KDE on Wayland is what I actually work on. Arch by hand and a Hackintosh
+build are what I do when I want to remember how the pieces fit.
 
 ## Ask me about
 
-Linux installs that went wrong and how I got them back, Hackintosh builds that
-shouldn't work but do, designing a question bank that can't lie about its own
-answers, and making study material free for students who can't pay for it.
+Designing a question bank that can't lie about its own answers, putting a model inside
+a product instead of next to it, and making study material free for students who can't
+pay for it. Also Linux installs that went wrong, and how I got them back.
 
 ---
 
@@ -162,7 +162,7 @@ answers, and making study material free for students who can't pay for it.
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&layout=compact&hide_border=true&title_color=24211c" alt="Top languages" />
 </p>
 
-<p align="center"><sub>Open to talking about Linux, Hackintosh builds and EdTech — and to pull requests in any package above.</sub></p>
+<p align="center"><sub>Open to talking about AI, agents and EdTech — and to pull requests in any package above.</sub></p>
 
 <p align="center">
   <a href="https://github.com/iboshka24/portfolio">Сайт-портфолио</a> ·
