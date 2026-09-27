@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img"
+     aria-label="Stack marquee">
+  <defs>
+    <style>
+      .row { font: 600 17px ui-monospace, "DejaVu Sans Mono", monospace; fill: #9fb8ac; }
+      .sep { fill: #c7f94e; }
+      .run { animation: slide 18s linear infinite; }
+      @keyframes slide { from { transform: translateX(0) } to { transform: translateX(-450px) } }
+    </style>
+    <clipPath id="window"><rect x="0" y="0" width="900" height="64"/></clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f1412" stop-opacity="1"/>
+      <stop offset="0.12" stop-color="#0f1412" stop-opacity="0"/>
+      <stop offset="0.88" stop-color="#0f1412" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0f1412" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="64" fill="#0f1412"/>
+  <g clip-path="url(#window)">
+    <g class="run">
+      <text x="0" y="39" class="row">TYPESCRIPT · NEXT.JS · PYTHON · RUST · KOTLIN · POSTGRESQL · VALKEY · GTK4 · DOCKER · GIT</text>
+      <text x="450" y="39" class="row sep">◆</text>
+      <text x="480" y="39" class="row">ARCH BY HAND · HACKINTOSH · OPENCORE · KDE WAYLAND · NEOVIM · HERMES AGENT · DEEPSEEK</text>
+    </g>
+  </g>
+  <rect width="900" height="64" fill="url(#fade)"/>
+</svg>

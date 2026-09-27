@@ -53,15 +53,15 @@
   <g>
     <text x="60" y="196" class="ph ph1">$ i like the layer under the layer</text>
     <text x="60" y="196" class="ph ph2">$ arch by hand · hackintosh with patience</text>
-    <text x="60" y="196" class="ph ph3">$ free exam prep for students in uzbekistan</text>
+    <text x="60" y="196" class="ph ph3">$ free tools for students, everywhere</text>
   </g>
 
   <path class="dash" d="M60 236 H1140"/>
   <path d="M60 236 H1140" stroke="#1c2b25" stroke-width="1"/>
 
   <circle class="pulse" cx="72" cy="272" r="5" fill="#c7f94e"/>
-  <text x="90" y="277" class="chip">SHIPPING</text>
-  <text x="196" y="277" class="chipdim">SHOBIKAOS · VENDRA TEACH · EXAM-FIGURE-SVG</text>
+  <text x="90" y="277" class="chip">SHIPPING · GLOBAL</text>
+  <text x="262" y="277" class="chipdim">SHOBIKAOS · VENDRA TEACH · EXAM-FIGURE-SVG</text>
 
   <text x="1140" y="277" class="chipdim" text-anchor="end">CACHYOS · ARCH · HACKINTOSH</text>
 </svg>

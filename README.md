@@ -11,9 +11,13 @@
 ![Open to](https://img.shields.io/badge/OPEN_TO-TALKING_ABOUT_LINUX-1f6feb?style=flat-square)
 
 <a href="https://github.com/iboshka24">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=760&lines=I+build+the+tools+I+miss;Arch+by+hand%2C+Hackintosh+with+patience;35+405+exam+questions%2C+11+900+of+them+free;Built+with+Hermes+Agent+and+DeepSeek" alt="what I do" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=820&lines=I+build+the+tools+I+miss;Arch+by+hand%2C+Hackintosh+with+patience;35+405+exam+questions+%E2%80%94+11+900+free%2C+for+students+anywhere;Built+with+Hermes+Agent+and+DeepSeek;SQL+trainer%2C+nutrition+and+workout+engines+%E2%80%94+all+open" alt="what I do" />
 </a>
 
+</div>
+
+<div align="center">
+  <img src="assets/heat.svg" alt="contributions" width="100%" />
 </div>
 
 ## whoami
@@ -28,6 +32,7 @@ const iboshka24 = {
   worksWith: ["Hermes Agent", "DeepSeek", "Neovim", "Git"],
   philosophy: "a system is a list of decisions someone made — you can read them",
   building: "Vendra Teach — 35 405 exam questions across 55 sections, 11 900 free",
+  buildingFor: "students anywhere — the tools are free, the borders are not the point",
   favouriteThing: "installing Arch from scratch is my idea of a good evening",
 } as const;
 ```
@@ -55,10 +60,10 @@ is the part where the data structure decides whether the feature is even possibl
 I would rather spend an evening designing the shape of a record than a week patching
 around a bad one.
 
-**Building for people I know.** A lot of students here prepare for exams with
+**Building for people everywhere.** A lot of students prepare for exams with
 photocopied pages, no answer keys and no feedback. I grew up around that, so the
-biggest thing I build is free exam practice for Uzbekistan — with real explanations,
-not just a score.
+biggest thing I build is free exam practice — with real explanations, not just a
+score. It started in Uzbekistan and is not meant to stay there.
 
 ## How I work
 
@@ -147,6 +152,10 @@ shouldn't work but do, designing a question bank that can't lie about its own
 answers, and making study material free for students who can't pay for it.
 
 ---
+
+<div align="center">
+  <img src="assets/marquee.svg" alt="stack" width="100%" />
+</div>
 
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=iboshka24&show_icons=true&hide_border=true&theme=default&title_color=24211c&icon_color=6b6459" alt="GitHub stats" />
