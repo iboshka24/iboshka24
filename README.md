@@ -1,12 +1,36 @@
-# iboshka24
+<div align="center">
+  <img src="assets/banner.svg" alt="iboshka24 — developer, Linux, Hackintosh, free exam prep" width="100%" />
+</div>
 
-**Developer. I build things for Linux, I tinker with Hackintosh, and I write the tools I miss.**
+<div align="center">
 
-[![Uzbekistan](https://img.shields.io/badge/Uzbekistan-1f6feb?style=flat-square)](#)
-[![Profile views](https://komarev.com/ghpvc/?username=iboshka24&style=flat-square&color=24211c)](https://github.com/iboshka24)
-[![Followers](https://img.shields.io/github/followers/iboshka24?style=flat-square&color=6b6459)](https://github.com/iboshka24?tab=followers)
+[![Visits](https://komarev.com/ghpvc/?username=iboshka24&label=VISITS&color=c7f94e&style=flat-square)](https://github.com/iboshka24)
+[![Followers](https://img.shields.io/github/followers/iboshka24?label=FOLLOWERS&style=flat-square&color=5ce1c6)](https://github.com/iboshka24?tab=followers)
+![Focus](https://img.shields.io/badge/FOCUS-LINUX_%2F_HACKINTOSH-c7f94e?style=flat-square)
+![Status](https://img.shields.io/badge/STATUS-BUILDING_VENDRA_TEACH-5ce1c6?style=flat-square)
+![Open to](https://img.shields.io/badge/OPEN_TO-TALKING_ABOUT_LINUX-1f6feb?style=flat-square)
 
-<!-- TODO(iboshka24): подставить настоящее имя и ссылку на портфолио, если захочешь -->
+<a href="https://github.com/iboshka24">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=760&lines=I+build+the+tools+I+miss;Arch+by+hand%2C+Hackintosh+with+patience;35+405+exam+questions%2C+11+900+of+them+free;Built+with+Hermes+Agent+and+DeepSeek" alt="what I do" />
+</a>
+
+</div>
+
+## whoami
+
+```ts
+const iboshka24 = {
+  alias: "iboshka24",
+  role: "developer",
+  city: "Uzbekistan",              // подставим точно, как только скажешь
+  os: ["CachyOS", "Arch (by hand)", "Hackintosh · OpenCore", "Windows (for games)"],
+  stack: ["TypeScript", "Next.js", "Python", "Rust", "Kotlin", "PostgreSQL"],
+  worksWith: ["Hermes Agent", "DeepSeek", "Neovim", "Git"],
+  philosophy: "a system is a list of decisions someone made — you can read them",
+  building: "Vendra Teach — 35 405 exam questions across 55 sections, 11 900 free",
+  favouriteThing: "installing Arch from scratch is my idea of a good evening",
+} as const;
+```
 
 ## What I'm about
 

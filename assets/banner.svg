@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="iboshka24 — developer: Linux, Hackintosh, tools I miss">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1c2b25" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c7f94e" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#c7f94e" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#c7f94e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5ce1c6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5ce1c6" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#5ce1c6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font: 800 66px ui-monospace, "JetBrains Mono", "DejaVu Sans Mono", Consolas, monospace;
+             fill: #eef3ea; letter-spacing: -2px; }
+    .cursor { animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+    .ph { font: 500 23px ui-monospace, "JetBrains Mono", "DejaVu Sans Mono", monospace; fill: #9fb8ac; }
+    .ph1 { animation: cycle 12s linear infinite; }
+    .ph2 { animation: cycle 12s linear infinite; animation-delay: 4s; opacity: 0; }
+    .ph3 { animation: cycle 12s linear infinite; animation-delay: 8s; opacity: 0; }
+    @keyframes cycle {
+      0% { opacity: 0; transform: translateY(6px) }
+      3% { opacity: 1; transform: translateY(0) }
+      30% { opacity: 1; transform: translateY(0) }
+      33% { opacity: 0; transform: translateY(-6px) }
+      100% { opacity: 0; transform: translateY(-6px) }
+    }
+    .dash { stroke: url(#sheen); stroke-width: 2; stroke-dasharray: 16 12;
+            animation: run 5s linear infinite; }
+    @keyframes run { to { stroke-dashoffset: -280 } }
+    .scan { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-340px) } 100% { transform: translateX(1240px) } }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: 0.25 } }
+    .chip { font: 600 13px ui-monospace, "DejaVu Sans Mono", monospace; fill: #a9c1b6; letter-spacing: 1px; }
+    .chipdim { font: 500 13px ui-monospace, "DejaVu Sans Mono", monospace; fill: #5f7a6e; letter-spacing: 1px; }
+  </style>
+
+  <rect width="1200" height="300" fill="#0f1412"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <g class="scan"><rect x="0" y="0" width="340" height="300" fill="url(#scan)" opacity="0.10"/></g>
+
+  <text x="60" y="152" class="title">iboshka24</text>
+  <rect class="cursor" x="418" y="100" width="28" height="60" fill="#c7f94e"/>
+
+  <g>
+    <text x="60" y="196" class="ph ph1">$ i like the layer under the layer</text>
+    <text x="60" y="196" class="ph ph2">$ arch by hand · hackintosh with patience</text>
+    <text x="60" y="196" class="ph ph3">$ free exam prep for students in uzbekistan</text>
+  </g>
+
+  <path class="dash" d="M60 236 H1140"/>
+  <path d="M60 236 H1140" stroke="#1c2b25" stroke-width="1"/>
+
+  <circle class="pulse" cx="72" cy="272" r="5" fill="#c7f94e"/>
+  <text x="90" y="277" class="chip">SHIPPING</text>
+  <text x="196" y="277" class="chipdim">SHOBIKAOS · VENDRA TEACH · EXAM-FIGURE-SVG</text>
+
+  <text x="1140" y="277" class="chipdim" text-anchor="end">CACHYOS · ARCH · HACKINTOSH</text>
+</svg>
