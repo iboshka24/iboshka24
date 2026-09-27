@@ -90,6 +90,9 @@ not just a score.
 | **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in ~200 lines, with tests. |
 | **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **35 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP — 55 sections in four interface languages, **11 900 of them free**, scheduled review of mistakes, timed exam mode. |
 | **[Staff-utility](https://github.com/iboshka24/Staff-utility)** | Minecraft server utilities for Paper/Folia: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
+| **[kod](https://github.com/iboshka24/kod)** | Free SQL trainer that runs a real database in the browser. Tasks are checked by result, not by text. No CDN, no build — SQLite in WebAssembly lives in the repo. |
+| **[nutrition-math](https://github.com/iboshka24/nutrition-math)** | Calories and macros from your own body data: Mifflin-St Jeor, a deficit that refuses to go below 1500 kcal, and warnings instead of silent compliance. |
+| **[workout-plan](https://github.com/iboshka24/workout-plan)** | A week of training from your days, minutes and equipment — with limits as a real filter: a knee removes lunges, a back removes deadlifts, and each removed move gets a replacement. |
 | **[simple-galaxy-simulation](https://github.com/iboshka24/simple-galaxy-simulation-by-ai)** | A galaxy rendered by a few hundred lines of physics, for the fun of watching it hold together. |
 | **klyro**, **opencode-studio**, **3d** | Smaller experiments, tools and prototypes. |
 
