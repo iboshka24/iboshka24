@@ -23,10 +23,37 @@ Arch from nothing, by hand, is still my favourite way to spend an evening.
 **Hackintosh, patiently.** Booting macOS on hardware Apple never intended means
 reading other people's kexts and ACPI tables until the thing finally comes up. It
 broke on me more times than I can count, and it taught me more about drivers than any
-course I've taken.
+course I've taken. What it really taught me is that a system is not magic — it is a
+list of decisions someone made, and you can read them.
 
 **Code that has to be right.** Mostly TypeScript and Python, but what I actually enjoy
 is the part where the data structure decides whether the feature is even possible.
+I would rather spend an evening designing the shape of a record than a week patching
+around a bad one.
+
+**Building for people I know.** A lot of students here prepare for exams with
+photocopied pages, no answer keys and no feedback. I grew up around that, so the
+biggest thing I build is free exam practice for Uzbekistan — with real explanations,
+not just a score.
+
+## How I work
+
+- **Local-first, user space.** The whole platform runs without root and without
+  Docker: PostgreSQL, Valkey and the API are extracted into my home directory and
+  started as normal processes. It means I can run the real stack on a laptop that
+  never asked permission from anyone.
+- **Tests before claims.** The question bank has a test that recomputes every answer
+  from its own prompt, independently of the code that generated it. If the explanation
+  and the key disagree, the build fails — I would rather know than ship a wrong answer
+  to a student.
+- **AI as a colleague, not autocomplete.** I work with **[Hermes Agent](https://hermes-agent.nousresearch.com)**
+  (an autonomous agent by Nous Research) driving **[DeepSeek](https://deepseek.com)**
+  models: it runs my servers, regenerates the bank, writes and runs the tests, takes
+  screenshots of the UI and reports back with evidence. I decide what gets built and
+  what gets shipped; the agent does the long mechanical parts, and it is expected to
+  verify its own work instead of announcing success.
+- **Nothing invented.** Every number in a README of mine is measured: question counts
+  come from the generated bank, star counts from GitHub, timings from real runs.
 
 ---
 
@@ -39,10 +66,15 @@ is the part where the data structure decides whether the feature is even possibl
 | **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in ~200 lines, with tests. |
 | **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **29 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP, four interface languages, scheduled review of mistakes, timed exam mode. |
 | **[Staff-utility](https://github.com/iboshka24/Staff-utility)** | Minecraft server utilities for Paper/Folia: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
+| **[simple-galaxy-simulation](https://github.com/iboshka24/simple-galaxy-simulation-by-ai)** | A galaxy rendered by a few hundred lines of physics, for the fun of watching it hold together. |
 | **klyro**, **opencode-studio**, **3d** | Smaller experiments, tools and prototypes. |
 
 Both open packages were extracted from the platform above — they are what I already
 run in production, cleaned up enough for someone else to use.
+
+**In design:** a fitness and nutrition companion (calorie goals from your own body
+data, meals from a photo, workout plans for calisthenics or dumbbells, plus time
+planning) — web app first, Telegram Mini App after.
 
 ---
 
@@ -57,8 +89,16 @@ run in production, cleaned up enough for someone else to use.
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![GTK4](https://img.shields.io/badge/GTK4-4A86CF?style=flat-square&logo=gtk&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+TypeScript and Next.js for anything with a screen, Python for anything that thinks,
+Rust when the installer has to be small and fast, Kotlin and Java when Minecraft is
+involved, PostgreSQL for the data that has to survive.
 
 ## Machines
 
@@ -66,7 +106,18 @@ run in production, cleaned up enough for someone else to use.
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-from_scratch-1793D1?style=flat-square&logo=archlinux&logoColor=white)
 ![Hackintosh](https://img.shields.io/badge/Hackintosh-OpenCore-000000?style=flat-square&logo=apple&logoColor=white)
 ![KDE](https://img.shields.io/badge/KDE_Plasma-Wayland-1D99F3?style=flat-square&logo=kde&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-for_games-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-terminal-57A143?style=flat-square&logo=neovim&logoColor=white)
+
+CachyOS with KDE on Wayland is what I actually work on. Arch I install by hand when I
+want to remember how the pieces fit. Hackintosh I keep around for the drivers and
+because macOS is a good teacher about hardware. Windows only when a game insists.
+
+## Ask me about
+
+Linux installs that went wrong and how I got them back, Hackintosh builds that
+shouldn't work but do, designing a question bank that can't lie about its own
+answers, and making study material free for students who can't pay for it.
 
 ---
 
