@@ -162,4 +162,9 @@ answers, and making study material free for students who can't pay for it.
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&layout=compact&hide_border=true&title_color=24211c" alt="Top languages" />
 </p>
 
-<p align="center"><sub>Open to talking about Linux, Hackintosh builds and EdTech for Uzbekistan — and to pull requests in either package above.</sub></p>
+<p align="center"><sub>Open to talking about Linux, Hackintosh builds and EdTech — and to pull requests in any package above.</sub></p>
+
+<p align="center">
+  <a href="https://github.com/iboshka24/portfolio">Сайт-портфолио</a> ·
+  <a href="https://github.com/iboshka24?tab=repositories">Все репозитории</a>
+</p>
