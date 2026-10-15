@@ -1,23 +1,17 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="iboshka24 — AI developer, agents, free exam prep" width="100%" />
-</div>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" alt="iboshka24 — AI developer in Tashkent. A terminal header types: tools I miss; colleagues, not autocomplete; 35 405 questions, 11 903 free; agents, working as one." width="100%">
+</picture>
 
 [![Visits](https://komarev.com/ghpvc/?username=iboshka24&label=VISITS&color=c7f94e&style=flat-square)](https://github.com/iboshka24)
 [![Followers](https://img.shields.io/github/followers/iboshka24?label=FOLLOWERS&style=flat-square&color=5ce1c6)](https://github.com/iboshka24?tab=followers)
-![Focus](https://img.shields.io/badge/FOCUS-AI_%2F_AGENTS-c7f94e?style=flat-square)
-![Status](https://img.shields.io/badge/STATUS-BUILDING_VENDRA_TEACH-5ce1c6?style=flat-square)
-![Open to](https://img.shields.io/badge/OPEN_TO-AI_%2C_AGENTS_%26_EDTECH-1f6feb?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-AI_%2F_AGENTS-ff6a1f?style=flat-square)
+![Now](https://img.shields.io/badge/NOW-VENDRACODE_%C2%B7_TEACH-c7f94e?style=flat-square)
+![Open to](https://img.shields.io/badge/OPEN_TO-AI_%2C_AGENTS_%26_EDTECH-5ce1c6?style=flat-square)
 
-<a href="https://github.com/iboshka24">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1300&color=C7F94E&center=true&vCenter=true&width=820&lines=I+build+the+tools+I+miss;Models+as+colleagues%2C+not+autocomplete;35+405+exam+questions+%E2%80%94+11+900+free%2C+for+students+anywhere;Built+with+Hermes+Agent+and+DeepSeek;SQL+trainer%2C+nutrition+and+workout+engines+%E2%80%94+all+open" alt="what I do" />
-</a>
-
-</div>
-
-<div align="center">
-  <img src="assets/heat.svg" alt="contributions" width="100%" />
 </div>
 
 ## whoami
@@ -26,12 +20,13 @@
 const iboshka24 = {
   alias: "iboshka24",
   role: "AI developer",
-  city: "Tashkent",              
+  city: "Tashkent",
   os: ["CachyOS", "Arch (by hand)", "Hackintosh · OpenCore", "Windows (for games)"],
   stack: ["TypeScript", "Next.js", "Python", "Rust", "Kotlin", "PostgreSQL"],
   worksWith: ["Hermes Agent", "DeepSeek", "Neovim", "Git"],
   philosophy: "a system is a list of decisions someone made — you can read them",
-  building: "Vendra Teach — 35 405 exam questions across 55 sections, 11 900 free",
+  building: ["VendraCode", "Vendra Teach", "Palmier Pro Linux"],
+  examBank: "35 405 questions · 55 sections · 11 903 free",
   buildingFor: "students anywhere — the tools are free, the borders are not the point",
   favouriteThing: "an agent proving a claim I doubted",
 } as const;
@@ -50,13 +45,13 @@ built; the agent does the long mechanical parts — and it is expected to prove 
 rather than announce success.
 
 **Everything I build has AI inside it, not AI written on it.** Error explanations that
-name the actual mistake instead of saying "wrong". A workout plan that respects a knee.
-A SQL trainer that compares your result to the reference instead of comparing text.
-The model is a part of the product, not a sticker on it.
+name the actual mistake. A workout plan that respects a knee. A SQL trainer that compares
+your result to the reference instead of comparing text. An IDE where local agents share
+one session instead of each editing a private copy. The model is a part of the product,
+not a sticker on it.
 
-**Curiosity about the layer under the layer** is the other half: sometimes that means
-Linux and Hackintosh, sometimes installers, sometimes just wanting to know why a driver
-refused to load. One of those evenings became
+**The layer under the layer.** Sometimes that is Linux and a Hackintosh, sometimes an
+installer, sometimes a driver that refused to load. One of those evenings became
 [ShobikaOs](https://github.com/iboshka24/ShobikaOs) — an Arch-based distribution with a
 Rust/GTK4 installer, automatic driver detection and an ISO built on every push.
 
@@ -81,39 +76,54 @@ score. It started in Uzbekistan and is not meant to stay there.
   and the key disagree, the build fails — I would rather know than ship a wrong answer
   to a student.
 - **AI as a colleague, not autocomplete.** I work with **[Hermes Agent](https://hermes-agent.nousresearch.com)**
-  (an autonomous agent by Nous Research) driving **[DeepSeek](https://deepseek.com)**
-  models: it runs my servers, regenerates the bank, writes and runs the tests, takes
-  screenshots of the UI and reports back with evidence. I decide what gets built and
-  what gets shipped; the agent does the long mechanical parts, and it is expected to
-  verify its own work instead of announcing success.
+  driving **[DeepSeek](https://deepseek.com)** models: it runs my servers, regenerates the bank,
+  writes and runs the tests, takes screenshots of the UI and reports back with evidence.
+  I decide what gets built and what gets shipped.
 - **Nothing invented.** Every number in a README of mine is measured: question counts
   come from the generated bank, star counts from GitHub, timings from real runs.
 
----
+## Now
 
-## Things I've built
+- **[VendraCode](https://github.com/iboshka24/VendraCode)** — a multiplayer IDE where local agents share one session: live edits, file locks, Mission Control.
+- **[Palmier Pro Linux](https://github.com/iboshka24/palmier-pro-linux)** — Qt 6 video editor for Linux: 53 MCP tools, transform, color and effects through FFmpeg.
+- **Vendra Teach** — 35 405 questions across 55 sections. Plenty of sections are still empty. The model should tell a student what they mixed up, not just "wrong".
+- **Forma** — the Telegram app already runs the workout engine. Next is a meal from a photo into the diary.
+- **[kod](https://github.com/iboshka24/kod)** — growing from a SQL trainer toward a course.
+
+## Selected work
+
+### Agents and editors
 
 | | |
 | --- | --- |
-| **[ShobikaOs](https://github.com/iboshka24/ShobikaOs)** | Arch-based Linux distribution: native Rust/GTK4 installer, automatic driver detection, PipeWire, gaming tuning, CI-built ISO. |
-| **[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** | Draws exam figures — lines, parabolas, scatter plots, tables — from data straight to print-ready SVG. Zero dependencies, and no input can produce `NaN`. |
-| **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in ~200 lines, with tests. |
-| **Vendra Teach** <sub>(private)</sub> | Exam-prep platform for Uzbek students: **35 000+ questions** across Digital SAT, IELTS, Milliy sertifikat and AP — 55 sections in four interface languages, **11 900 of them free**, scheduled review of mistakes, timed exam mode. |
-| **[Staff-utility](https://github.com/iboshka24/Staff-utility)** | Minecraft server utilities for Paper/Folia: `/sus`, `/report`, `/nv`, `/staff`, `gmsp`, `gtp`. |
-| **[kod](https://github.com/iboshka24/kod)** | Free SQL trainer that runs a real database in the browser. Tasks are checked by result, not by text. No CDN, no build — SQLite in WebAssembly lives in the repo. |
-| **[nutrition-math](https://github.com/iboshka24/nutrition-math)** | Calories and macros from your own body data: Mifflin-St Jeor, a deficit that refuses to go below 1500 kcal, and warnings instead of silent compliance. |
-| **[workout-plan](https://github.com/iboshka24/workout-plan)** | A week of training from your days, minutes and equipment — with limits as a real filter: a knee removes lunges, a back removes deadlifts, and each removed move gets a replacement. |
-| **[simple-galaxy-simulation](https://github.com/iboshka24/simple-galaxy-simulation-by-ai)** | A galaxy rendered by a few hundred lines of physics, for the fun of watching it hold together. |
-| **klyro**, **opencode-studio**, **3d** | Smaller experiments, tools and prototypes. |
+| **[VendraCode](https://github.com/iboshka24/VendraCode)** | Multiplayer AI-native IDE. Local agents — OpenCode, Claude Code, Cline, Antigravity CLI — share one session over `brain.vendra.uz`: live edits, advisory file locks, Mission Control, and a Telegram bot bound to an agent. Electron, React, TypeScript. |
+| **[palmier-pro-linux](https://github.com/iboshka24/palmier-pro-linux)** | Native Qt 6 / PySide6 video editor for Linux. 53 MCP tools, transform, color and effects rendered through FFmpeg, dark theme. GPLv3. An improved Linux port of Palmier Pro — not a 1:1 copy of the macOS app. |
+| **[kadr](https://github.com/iboshka24/kadr)** | One video, one project: from the idea to an mp4 with sound and subtitles — script, prompts, voice, edit — on a free stack. |
+| **[effectcraft-mcp](https://github.com/iboshka24/effectcraft-mcp)** | MCP-enabled fork of [storytold/effectcraft](https://github.com/storytold/effectcraft) — open-source motion graphics and compositing, written in Rust. |
+| **[filmcraft-mcp](https://github.com/iboshka24/filmcraft-mcp)** | MCP-enabled fork of [storytold/filmcraft](https://github.com/storytold/filmcraft) — open-source nonlinear video editor, written in Rust. |
 
-Both open packages were extracted from the platform above — they are what I already
-run in production, cleaned up enough for someone else to use.
+### Learning
 
-**In design:** a fitness and nutrition companion (calorie goals from your own body
-data, meals from a photo, workout plans for calisthenics or dumbbells, plus time
-planning) — web app first, Telegram Mini App after.
+| | |
+| --- | --- |
+| **Vendra Teach** <sub>private</sub> | Exam practice for Digital SAT, IELTS, Milliy sertifikat and AP. **35 405** questions, **55** sections, four interface languages, **11 903** of them free. Scheduled review of mistakes, timed exam mode. 308 tests run before a commit. |
+| **[kod](https://github.com/iboshka24/kod)** | Free SQL trainer. A real database in the browser; tasks are checked by result, not by text. SQLite in WebAssembly lives in the repo — no CDN, no build. [Live](https://kod-gamma.vercel.app). |
+| **[wordloop](https://github.com/iboshka24/wordloop)** | Bilingual flashcard loop: paste words, the model filters and translates, then an infinite recall loop with spaced repetition. [Live](https://wordloop-three.vercel.app). |
+| **[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** | Exam figures — lines, parabolas, scatter plots, tables — from data straight to print-ready SVG. No dependencies, and no input can produce `NaN`. |
+| **[spaced-repetition-queue](https://github.com/iboshka24/spaced-repetition-queue)** | Answers *"when should this question come back?"* — spaced repetition in about 200 lines, with tests. |
 
----
+Both open packages above were extracted from Vendra Teach. They are what already runs there, cleaned up enough for someone else to use.
+
+### Body, systems, site
+
+| | |
+| --- | --- |
+| **[nutrition-math](https://github.com/iboshka24/nutrition-math)** | Calories and macros from your own body data. Mifflin–St Jeor, a deficit that refuses to go below 1500 kcal, warnings instead of silent compliance. 9 tests, zero dependencies. |
+| **[workout-plan](https://github.com/iboshka24/workout-plan)** | A week of training from your days, minutes and equipment. A knee removes lunges, a back removes deadlifts, and each removed move gets a replacement. 10 tests. The same engine runs in Forma. |
+| **[ShobikaOs](https://github.com/iboshka24/ShobikaOs)** | Arch-based Linux distribution: Rust/GTK4 installer, automatic driver detection, PipeWire, gaming tuning, an ISO on every push. |
+| **[portfolio](https://github.com/iboshka24/portfolio)** | The site: whoami, projects, stack. Same colors as this page — graphite, orange, lime. Static, no build. [iboshka24.vercel.app](https://iboshka24.vercel.app). |
+
+Also [Staff-utility](https://github.com/iboshka24/Staff-utility) (Paper/Folia server commands), [simple-galaxy-simulation-by-ai](https://github.com/iboshka24/simple-galaxy-simulation-by-ai), and the smaller experiments **klyro**, **opencode-studio**, **3d**.
 
 ## Stack
 
@@ -121,21 +131,21 @@ planning) — web app first, Telegram Mini App after.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![GTK4](https://img.shields.io/badge/GTK4-4A86CF?style=flat-square&logo=gtk&logoColor=white)
+![Qt 6](https://img.shields.io/badge/Qt_6-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Valkey](https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-TypeScript and Next.js for anything with a screen, Python for anything that thinks,
-Rust when the installer has to be small and fast, Kotlin and Java when Minecraft is
-involved, PostgreSQL for the data that has to survive.
+TypeScript and Next.js for anything with a screen, Electron when it has to be a desktop IDE, Python for anything that thinks, Rust when the installer has to be small and fast, Kotlin and Java when Minecraft is involved, Qt when the editor is a Linux port, PostgreSQL for the data that has to survive.
 
 ## Machines
 
@@ -149,22 +159,28 @@ build are what I do when I want to remember how the pieces fit.
 
 Designing a question bank that can't lie about its own answers, putting a model inside
 a product instead of next to it, and making study material free for students who can't
-pay for it. Also Linux installs that went wrong, and how I got them back.
+pay for it. Also a shared session for local coding agents, and Linux installs that went
+wrong and how I got them back.
 
 ---
 
-<div align="center">
-  <img src="assets/marquee.svg" alt="stack" width="100%" />
-</div>
-
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=iboshka24&show_icons=true&hide_border=true&theme=default&title_color=24211c&icon_color=6b6459" alt="GitHub stats" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&layout=compact&hide_border=true&title_color=24211c" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=iboshka24&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0f1412&amp;title_color=ff6a1f&amp;text_color=eef3ea&amp;icon_color=c7f94e">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=iboshka24&amp;show_icons=true&amp;hide_border=true&amp;bg_color=f7f4ee&amp;title_color=c2410c&amp;text_color=17201c&amp;icon_color=3a6410">
+    <img height="165" alt="GitHub stats for iboshka24" src="https://github-readme-stats.vercel.app/api?username=iboshka24&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0f1412&amp;title_color=ff6a1f&amp;text_color=eef3ea&amp;icon_color=c7f94e">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&amp;layout=compact&amp;hide_border=true&amp;bg_color=0f1412&amp;title_color=ff6a1f&amp;text_color=eef3ea">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&amp;layout=compact&amp;hide_border=true&amp;bg_color=f7f4ee&amp;title_color=c2410c&amp;text_color=17201c">
+    <img height="165" alt="Top languages for iboshka24" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iboshka24&amp;layout=compact&amp;hide_border=true&amp;bg_color=0f1412&amp;title_color=ff6a1f&amp;text_color=eef3ea">
+  </picture>
 </p>
 
-<p align="center"><sub>Open to talking about AI, agents and EdTech — and to pull requests in any package above.</sub></p>
+<p align="center"><sub>Most of the work still lives in a private repository, so the public graph is the small part. Open to talking about AI, agents and EdTech — and to pull requests in any package above.</sub></p>
 
 <p align="center">
-  <a href="https://github.com/iboshka24/portfolio">Сайт-портфолио</a> ·
+  <a href="https://iboshka24.vercel.app">Сайт</a> ·
+  <a href="https://github.com/iboshka24/portfolio">Репозиторий сайта</a> ·
   <a href="https://github.com/iboshka24?tab=repositories">Все репозитории</a>
 </p>
