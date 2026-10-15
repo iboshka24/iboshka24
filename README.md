@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" alt="iboshka24 — AI developer in Tashkent. A terminal header types: tools I miss; colleagues, not autocomplete; 35 405 questions, 11 903 free; agents, working as one." width="100%">
+  <img src="assets/banner-dark.svg" alt="iboshka24 — AI developer in Tashkent. A terminal header types: tools I miss; colleagues, not autocomplete; 287K+ questions in the bank; agents, working as one." width="100%">
 </picture>
 
 [![Visits](https://komarev.com/ghpvc/?username=iboshka24&label=VISITS&color=c7f94e&style=flat-square)](https://github.com/iboshka24)
@@ -26,7 +26,7 @@ const iboshka24 = {
   worksWith: ["Hermes Agent", "DeepSeek", "Neovim", "Git"],
   philosophy: "a system is a list of decisions someone made — you can read them",
   building: ["VendraCode", "Vendra Teach", "Palmier Pro Linux"],
-  examBank: "35 405 questions · 55 sections · 11 903 free",
+  examBank: "287K+ questions",
   buildingFor: "students anywhere — the tools are free, the borders are not the point",
   favouriteThing: "an agent proving a claim I doubted",
 } as const;
@@ -86,7 +86,7 @@ score. It started in Uzbekistan and is not meant to stay there.
 
 - **[VendraCode](https://github.com/iboshka24/VendraCode)** — a multiplayer IDE where local agents share one session: live edits, file locks, Mission Control.
 - **[Palmier Pro Linux](https://github.com/iboshka24/palmier-pro-linux)** — Qt 6 video editor for Linux: 53 MCP tools, transform, color and effects through FFmpeg.
-- **Vendra Teach** — 35 405 questions across 55 sections. Plenty of sections are still empty. The model should tell a student what they mixed up, not just "wrong".
+- **Vendra Teach** — 287K+ questions in the bank. The model should tell a student what they mixed up, not just "wrong".
 - **Forma** — the Telegram app already runs the workout engine. Next is a meal from a photo into the diary.
 - **[kod](https://github.com/iboshka24/kod)** — growing from a SQL trainer toward a course.
 
@@ -106,7 +106,7 @@ score. It started in Uzbekistan and is not meant to stay there.
 
 | | |
 | --- | --- |
-| **Vendra Teach** <sub>private</sub> | Exam practice for Digital SAT, IELTS, Milliy sertifikat and AP. **35 405** questions, **55** sections, four interface languages, **11 903** of them free. Scheduled review of mistakes, timed exam mode. 308 tests run before a commit. |
+| **Vendra Teach** <sub>private</sub> | Exam practice for Digital SAT, IELTS, Milliy sertifikat and AP. **287K+** questions in the bank. Scheduled review of mistakes, timed exam mode. |
 | **[kod](https://github.com/iboshka24/kod)** | Free SQL trainer. A real database in the browser; tasks are checked by result, not by text. SQLite in WebAssembly lives in the repo — no CDN, no build. [Live](https://kod-gamma.vercel.app). |
 | **[wordloop](https://github.com/iboshka24/wordloop)** | Bilingual flashcard loop: paste words, the model filters and translates, then an infinite recall loop with spaced repetition. [Live](https://wordloop-three.vercel.app). |
 | **[exam-figure-svg](https://github.com/iboshka24/exam-figure-svg)** | Exam figures — lines, parabolas, scatter plots, tables — from data straight to print-ready SVG. No dependencies, and no input can produce `NaN`. |
